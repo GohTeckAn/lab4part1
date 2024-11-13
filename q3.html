@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 3 Lab 4</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+   <script>
+        var element = document.getElementById('demo');
+
+        let text = "";
+
+        for (let i = 0; i <= 5; i++) {
+            if(i != 0) {
+                text += "The number is " + i + "<br>";
+            }
+        }
+        
+        element.innerHTML = text;
+   </script> 
+</body>
+</html>
